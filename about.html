@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinicoz: Customizable Clinic Management Software | Simplify Appointments & EMR</title>
+  <meta name="description"
+    content="Clinicoz offers an all-in-one clinic management solution for doctors. Manage appointments, customize EMRs, streamline patient communication, and more—all tailored to fit your clinic's brand. Save time and reduce costs with Clinicoz.">
+
+  <meta name="keywords"
+    content="Clinic management software, Customizable EMR, Appointment scheduling software, Patient management system, Medical practice management, Healthcare software for doctors, Clinic software solution, Clinic management system, EMR software for clinics, Clinic scheduling app, Patient communication software, Clinic software with branding, Manage clinic online, Healthcare practice software, Affordable clinic software">
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/colors/navy.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <style>
+    .logo {
+      font-family: 'nunito', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      position: relative;
+      color: #444444;
+    }
+
+    .dot-o {
+      position: relative;
+      display: inline-block;
+      color: #7934BF;
+      ;
+    }
+
+    .dot-o::after {
+      content: '';
+      position: absolute;
+      top: 54%;
+      left: 50%;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background-color: #444444;
+      transform: translate(-50%, -50%);
+    }
+
+    .custom-logo {
+      width: 80%;
+      max-width: 200px;
+      /* Adjust this based on your design needs */
+      height: auto;
+      /* Maintains the aspect ratio */
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .custom-logo {
+        max-width: 200px;
+        /* Smaller logo on small screens */
+      }
+    }
+
+    @media (max-width: 400px) {
+      .custom-logo {
+        max-width: 150px;
+        /* Even smaller logo on very small screens */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper bg-light">
+      <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-light"
+        style="background-color: #ffffff;">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <div class="logo">
+              <a href="./index.html">clinic<span class="dot-o">o</span>z</a>
+            </div>
+            <!-- <a href="./index.html">
+              <img class="custom-logo" src="./assets/img/clinicoz.svg" alt="clinicoz" />
+            </a> -->
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">Menu</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="./about.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Features</a>
+                  <div class="dropdown-menu dropdown-lg">
+                    <div class="dropdown-lg-content">
+                      <div>
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item" href="./manage-settings.html">Manage Settings</a></li>
+                          <li><a class="dropdown-item" href="./index.html">Customizable EMR</a></li>
+                          <li><a class="dropdown-item" href="./index.html">Patient Communication</a></li>
+                          <li><a class="dropdown-item" href="./index.html">Clinic-Branded Invoices & Payments</a></li>
+                        </ul>
+                      </div>
+                      <!-- /.column -->
+                      <div>
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item" href="./index.html">Appointment Scheduling</a></li>
+                          <li><a class="dropdown-item" href="./index.html">Customizable Look & Feel</a></li>
+                          <li><a class="dropdown-item" href="./index.html">SEO-Optimized Clinic Website</a></li>
+                          <li><a class="dropdown-item" href="./index.html">Data Ownership & Easy Export</a></li>
+                        </ul>
+                      </div>
+                      <!-- /.column -->
+                    </div>
+                    <!-- /auto-column -->
+                  </div>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Specialities</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item"><a class="dropdown-item" href="./index.html">Dermatology</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="./index.html">Pediatrics</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="./index.html">Dentistry</a></li>
+                  </ul>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="./index.html#emr">EMR</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="./index.html">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="./index.html#pricing">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="./index.html#contact">Contact</a>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other ms-lg-4">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item">
+                <a href="#" class="btn btn-purple rounded-pill">Login</a>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+              </li>
+
+          </div>
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+      <div class="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true">
+        <div class="offcanvas-header">
+          <h3 class="text-white fs-30 mb-0">clinicoz</h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+      </div>
+      <!-- /.offcanvas -->
+      <div class="offcanvas offcanvas-top bg-light" id="offcanvas-search" data-bs-scroll="true">
+        <div class="container d-flex flex-row py-6">
+          <form class="search-form w-100">
+            <input id="search-form" type="text" class="form-control" placeholder="Type keyword and hit enter">
+          </form>
+          <!-- /.search-form -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.offcanvas -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper bg-soft-primary">
+      <div class="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
+        <div class="row">
+          <div class="col-md-10 col-xl-8 mx-auto">
+            <div class="post-header mt-10">
+              <h1 class="display-1 mb-5">About us</h1>
+              <!-- <ul class="post-meta fs-17 mb-5">
+                <li><i class="uil uil-clock"></i> Full time</li>
+                <li><i class="uil uil-location-arrow"></i> Manchester, UK</li>
+                <li><i class="uil uil-building"></i> Design Department</li>
+              </ul> -->
+              <!-- /.post-meta -->
+            </div>
+            <!-- /.post-header -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light">
+      <div class="container pb-14 pb-md-16">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="blog single mt-n17">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <h2 class="h1 mb-3">Story & Vision</h2>
+                  <p>We at clinicoz (REPOLITE) are a passionate and dedicated team focused on transforming the way the healthcare sector
+                    operates through the power of AI. Our mission is to drive positive change, making healthcare more
+                    efficient and accessible for both professionals and the people they serve. By leveraging advanced
+                    technology, we strive to innovate and simplify the way clinics function, ensuring better outcomes
+                    for everyone connected to healthcare.</p>
+                  <p>Our commitment to progress keeps us moving forward, as we continually work to revolutionize the
+                    industry and improve the daily lives of healthcare workers and patients alike..</p>
+
+                  <!--/.row -->
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- /.blog -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+
+  </div>
+  <!-- /.content-wrapper -->
+</body>
+
+</html>
